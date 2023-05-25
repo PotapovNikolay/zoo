@@ -1,0 +1,9 @@
+@tailwind components;
+
+@layer components {
+
+    .shadow-button{
+        @apply shadow-[4.0px_6.0px_6.0px_rgba(0,0,0,0.2)]
+    }
+}
+

@@ -1,0 +1,49 @@
+
+@import "./bubble.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .circle {
+        @apply w-12 h-12 rounded-full bg-orange-400;
+    }
+    .circle-orange {
+        @apply stroke-blue-400 stroke-2 fill-white opacity-70 cursor-pointer transition ease-in-out duration-200 hover:fill-orange-300 active:fill-orange-400 
+    }
+    .circle-orange-active{
+         @apply stroke-blue-400 stroke-2 fill-orange-400 cursor-pointer
+    }
+}
+
+.cls-1 {
+    fill: blueviolet;
+}
+
+
+.map-sectors {
+    fill: #99ce62;
+}
+
+.mirrorX {
+    transform: scale(-1, 1);
+}
+.mirrorY {
+    transform: scale(1, -1);
+}
+.mirror {
+    transform: scale(-1, -1);
+}
+
+@layer base {
+    h2 {
+        @apply text-5xl font-extrabold;
+    }
+    h6 {
+        @apply text-lg leading-tight mt-4;
+    }
+}
+
+

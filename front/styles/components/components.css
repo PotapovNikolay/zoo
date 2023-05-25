@@ -1,0 +1,35 @@
+@import "./buttons.css";
+@import "./bubble.css";
+@import "./scroll.css";
+
+@tailwind components;
+
+@layer components {
+    .circle {
+        @apply w-12 h-12 rounded-full bg-main-orange;
+    }
+}
+
+.cls-1 {
+    fill: blueviolet;
+}
+
+.circle-orange {
+    fill: rgb(161, 66, 66);
+    opacity: 0;
+    /* filter: drop-shadow( 0 5px 0 rgba(0, 0, 0, .3)); */
+}
+
+.map-sectors {
+    fill: #99ce62;
+}
+
+.mirrorX {
+    transform: scale(-1, 1);
+}
+.mirrorY {
+    transform: scale(1, -1);
+}
+.mirror {
+    transform: scale(-1, -1);
+}

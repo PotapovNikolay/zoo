@@ -1,0 +1,47 @@
+<svg id="Прямоугольник_5_-_Группа_смарт-объектов" data-name="Прямоугольник 5 - Группа смарт-объектов" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2144" height="2177" viewBox="0 0 2144 2177">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #abde75;
+        <!-- filter: url(#filter); -->
+      }
+
+      .cls-1, .cls-2 {
+        <!-- stroke: #fff;
+        stroke-width: 1px; -->
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #7eb975;
+      }
+    </style>
+    <filter id="filter" x="126.812" y="107.094" width="1843.218" height="1946.906" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="120" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-opacity="0.3"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" dy="90" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood result="flood-2" flood-color="#91585e"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feOffset result="offset-3" dy="40" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood result="flood-3" flood-color="#6c3f54"/>
+      <feComposite result="composite-3" operator="in" in2="blur-3"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feOffset result="offset-4" dy="30" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-4"/>
+      <feFlood result="flood-4" flood-color="#7eb975"/>
+      <feComposite result="composite-4" operator="in" in2="blur-4"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+      <feBlend result="blend-4" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #abde75; filter: url(#filter)">
+    <path id="Фигура_27" data-name="Фигура 27" class="cls-1" d="M1857,388c162.65,243.724,118.84,709.76,59,863s-240.77,387.29-444.21,417.01C1210.81,1706.14,1276.08,1936.34,931,1933c-290.707-2.81-379.848-141.35-441.275-152.31C397.339,1764.21,270.461,1739.75,202,1665c-133.581-145.85-69.835-380.45,41.691-464.25,99.465-74.73,116.517-60.75,153-88.9,157.952-121.9-91.891-287.037,0-580.972C453.7,348.523,595.407,215.609,757,171c338.63-93.48,515.03-64.134,664-38C1552.15,156.008,1773.29,262.563,1857,388Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Фигура_27" style=" filter: none; fill: none"/>
+  <path id="Прямоугольник_5" data-name="Прямоугольник 5" class="cls-2" d="M1686,1586a5,5,0,0,1,5,5v14a5,5,0,0,1-10,0v-14A5,5,0,0,1,1686,1586Zm-249,111a5,5,0,0,1,5,5v21a5,5,0,0,1-10,0v-21A5,5,0,0,1,1437,1697Zm-252,175a5,5,0,0,1,5,5v28a5,5,0,0,1-10,0v-28A5,5,0,0,1,1185,1872Zm-266,86a5,5,0,0,1,5,5v28a5,5,0,0,1-10,0v-28A5,5,0,0,1,919,1958Zm-18-13a5,5,0,0,1,5,5v28a5,5,0,0,1-10,0v-28A5,5,0,0,1,901,1945ZM275,1729a5,5,0,0,1,5,5v28a5,5,0,0,1-10,0v-28A5,5,0,0,1,275,1729Zm-18,1a5,5,0,0,1,5,5v28a5,5,0,0,1-10,0v-28A5,5,0,0,1,257,1730Zm1164-33a5,5,0,0,1,5,5v12a5,5,0,0,1-10,0v-12A5,5,0,0,1,1421,1697Z"/>
+</svg>

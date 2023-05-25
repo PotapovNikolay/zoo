@@ -1,0 +1,13 @@
+<svg id="Прямоугольник_2_копия_9_-_Группа_смарт-объектов" data-name="Прямоугольник 2 копия 9 - Группа смарт-объектов" xmlns="http://www.w3.org/2000/svg" width="27" height="18" viewBox="0 0 27 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Треугольник_1" data-name="Треугольник 1" class="cls-1" d="M35.587-9.619a2,2,0,0,1,0,3.238L3.174,17.134A2,2,0,0,1,0,15.516V-31.516a2,2,0,0,1,3.174-1.619Z"/>
+</svg>

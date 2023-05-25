@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./*"],
+            "@animals/*": ["./src/pages/animals/*"],
+            "@components/*": ["./src/components/*"],
+            "@icons/*": ["./public/icons/*"],
+            "@images/*": ["./public/images/*"],
+            "@map/*": ["./public/map/*"],
+            "@services/*": ["./src/services/*"],
+            "@buttons/*": ["./src/components/buttons/*"],
+            "@modals": ["./src/components/modals/index"],
+            "@types": ["./src/types/index"],
+            "@hooks": ["./src/hooks/index"],
+            "@fetcher": ["./src/utils/fetcher"]
+        }
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "pages/animals/[class]"
+    ],
+    "exclude": ["node_modules"]
+}

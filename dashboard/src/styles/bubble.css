@@ -1,0 +1,44 @@
+@tailwind components;
+
+.triangle-bottom {
+    width: 1rem;
+    height: 1rem;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 1rem solid #f95959;
+    border-radius: 5px;
+}
+
+@layer components {
+    .bubble-chat {
+        @apply text-blue-400 text-center px-1.5 py-1 uppercase text-sm bg-white rounded-[5px] shadow-2xl absolute z-40 cursor-pointer transition-all duration-200 hover:scale-105 ;
+    }
+
+    .bubble-chat-treangle {
+        @apply h-8 w-4  rounded-sm bg-white rotate-[60deg] transform origin-bottom-left  absolute;
+    }
+
+    .bubble-chat-left {
+        @apply bubble-chat;
+    }
+
+    .bubble-chat-treangle-tr {
+        @apply bottom-1 left-2 bubble-chat-treangle;
+    }
+
+    .bubble-chat-treangle-tl {
+        @apply bottom-1 right-4 bubble-chat-treangle;
+    }
+
+    .bubble-chat-treangle-br {
+        @apply top-1 left-4 bubble-chat-treangle;
+    }
+
+    .bubble-chat-treangle-bl {
+        @apply top-1 right-4 bubble-chat-treangle;
+    }
+
+    .bubble-chat-center {
+        @apply w-44 h-12 bg-white rounded-xl shadow-2xl absolute z-30 cursor-pointer transition-all duration-200 hover:scale-105;
+    }
+}

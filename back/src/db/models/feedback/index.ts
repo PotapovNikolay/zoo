@@ -1,0 +1,1 @@
+export {feedback} from './feedback.model'

@@ -1,0 +1,44 @@
+{
+    "name": "dashboard",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "build:tailwind": "tailwindcss build src/styles/global.css ",
+        "prestart": "npm run build:tailwind",
+        "prebuild": "npm run build:tailwind",
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.9.3",
+        "@splidejs/react-splide": "^0.7.12",
+        "@types/bcrypt": "^5.0.0",
+        "axios": "^1.3.5",
+        "bcrypt": "^5.1.0",
+        "flowbite": "^1.6.5",
+        "flowbite-react": "^0.4.3",
+        "jsonwebtoken": "^9.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.0.5",
+        "react-router-dom": "^6.10.0",
+        "react-toastify": "^9.1.2",
+        "swr": "^2.1.3"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.3",
+        "@types/bcryptjs": "^2.4.2",
+        "@types/jsonwebtoken": "^9.0.1",
+        "@types/node": "^18.15.11",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@vitejs/plugin-react-swc": "^3.0.0",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.21",
+        "tailwindcss": "^3.3.1",
+        "typescript": "^4.9.3",
+        "vite": "^4.2.0"
+    }
+}

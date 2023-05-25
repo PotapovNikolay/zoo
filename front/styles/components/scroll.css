@@ -1,0 +1,22 @@
+.map-scroll::-webkit-scrollbar {
+    width: 5px;
+    cursor: pointer;
+    height: 10px;
+    border-radius: 20px;
+    /*background-color: rgb(24, 100, 27);*/
+}
+
+.map-scroll::-webkit-scrollbar-track {
+    /*background-color: rgb(24, 24, 27);*/
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    height: 10px;
+}
+
+.map-scroll::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    border-radius: 10px;
+}
+

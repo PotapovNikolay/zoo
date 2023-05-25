@@ -1,0 +1,25 @@
+@import './components/components.css';
+@import './helpers/helpers.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+  
+}
+
+@layer base {
+
+    h2{
+        @apply text-3xl xl:text-5xl font-extrabold text-center lg:text-left;
+    }
+    h6{
+        @apply text-lg leading-tight mt-4 text-center lg:text-left;
+    }
+
+    
+}

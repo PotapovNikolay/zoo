@@ -1,0 +1,21 @@
+<svg id="services" data-name="Группа 7" xmlns="http://www.w3.org/2000/svg" width="2144" height="2177" viewBox="0 0 2144 2177">
+  <defs>
+    <style>
+      .circleService {
+        fill: #f4a261;
+        <!-- stroke: #fff;
+        stroke-width: 1px; -->
+        fill-rule: evenodd;
+        filter: drop-shadow( 0 5px 0 rgba(0, 0, 0, .3));
+      }
+    </style>
+  </defs>
+
+  <path id="playground"  data-name="Эллипс 1" class="circleService" d="M1318,916.156a39.381,39.381,0,1,1-39.38,39.38A39.379,39.379,0,0,1,1318,916.156Z"/>
+  <path id="food"  data-name="Эллипс 1 копия 2" class="circleService" d="M808,1213.16a39.38,39.38,0,1,1-39.38,39.38A39.38,39.38,0,0,1,808,1213.16Z"/>
+  <path id="scene" data-name="Эллипс 1 копия 3" class="circleService" d="M923,1441.16a39.38,39.38,0,1,1-39.38,39.38A39.38,39.38,0,0,1,923,1441.16Z"/>
+  <path id="entry" data-name="Эллипс 1 копия 4" class="circleService" d="M439,1536.16a39.38,39.38,0,1,1-39.38,39.38A39.38,39.38,0,0,1,439,1536.16Z"/>
+  <path id="wc" data-name="Эллипс 1 копия 5" class="circleService" d="M489,1257.16a39.38,39.38,0,1,1-39.38,39.38A39.38,39.38,0,0,1,489,1257.16Z"/>
+  <path id="shop" data-name="Эллипс 1 копия 6" class="circleService" d="M339,1311.16a39.38,39.38,0,1,1-39.38,39.38A39.38,39.38,0,0,1,339,1311.16Z"/>
+  <path id="foodcourt" data-name="Эллипс 1 копия" class="circleService" d="M765,929.156a39.382,39.382,0,1,1-39.38,39.38A39.38,39.38,0,0,1,765,929.156Z"/>
+</svg>
