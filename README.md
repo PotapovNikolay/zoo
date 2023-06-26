@@ -1,8 +1,8 @@
 # Сайт зоопарка
 
-Сайт белгородского зоопарка в рамках дипломного проекта
+[//]: # (Сайт белгородского зоопарка в рамках дипломного проекта)
 
-<img width="800" alt="Screenshot 2022-09-05 at 18 25 10" src="https://github.com/PotapovNikolay/zoo/blob/main/back/src/public/images/map-crop.png?raw=true">
+[//]: # (<img width="800" alt="Screenshot 2022-09-05 at 18 25 10" src="https://github.com/PotapovNikolay/zoo/blob/main/back/src/public/images/map-crop.png?raw=true">)
 
 ### Разделы:
 
